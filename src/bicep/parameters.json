@@ -3,18 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storage_account_name": {
-            "defaultValue": "naammainkyarakhahai007",
-            "type": "String",
-            "metadata": {
-                "description": "Storage account name"
-            }
+            "value": "naammainkyarakhahai007"
         },
         "location": {
-            "defaultValue": "australiaeast",
-            "type": "String",
-            "metadata": {
-                "description": "Storage account location"
-            }
+            "value": "australiaeast"
         }
     }
 }
