@@ -35,6 +35,6 @@ jobs:
       - name: az bicep deploy
         working-directory: '${{github.workspace}}/src/bicep'
         run: |
-          az deployment group create --resource-group bicep-deploy-rg --templatei-file ./storage_account.bicep
+          az deployment group create --resource-group bicep-deploy-rg --template-file ./storage_account.bicep
           
           
